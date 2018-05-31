@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Products</h2>
+
+<!-- ko if:products() -->
+
+
+<p>
+  <input type="text" data-bind="value: warehouse, valueUpdate : 'keyup'" class="form-control" placeholder="Warehouse" />
+  <input type="text" data-bind="value: category, valueUpdate : 'keyup'" class="form-control" placeholder="Category" />
+  <a href="#" data-bind="click: getProducts() " class="btn">Get Products</a>
+</p>
+
+<div>
+  
+  <table class="table">
+    <tr>
+      <th>
+        @Html.DisplayName("Name")
+      </th>
+      <th>
+        @Html.DisplayName("Category")
+      </th>
+      <th>
+        @Html.DisplayName("Price")
+      </th>
+      <th>
+        @Html.DisplayName("Quantity")
+      </th>
+    </tr>
+
+    <!--ko foreach: products-->
+    <tr>
+      <td>
+        <b data-bind="text: Name"></b>
+      </td>
+      <td>
+        <b data-bind="text: ProductCategory.Name"></b>
+      </td>
+      <td>
+        <b data-bind="text: Stocks[0].Price"></b>
+      </td>
+      <td>
+        <b data-bind="text: Stocks[0].Quantity"></b>
+      </td>
+    </tr>
+    <!--/ko-->
+  </table>
+
+</div>
+
+<!--/ko-->
+
+@section scripts
+{
+  @Scripts.Render("~/bundles/product")
+}

@@ -1,0 +1,9 @@
+D:\Personal\TestProject\src\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Personal\TestProject\src\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Personal\TestProject\src\BusinessLayer\bin\Debug\DataAccessLayer.dll
+D:\Personal\TestProject\src\BusinessLayer\bin\Debug\Entities.dll
+D:\Personal\TestProject\src\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+D:\Personal\TestProject\src\BusinessLayer\bin\Debug\Entities.pdb
+D:\Personal\TestProject\src\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\Personal\TestProject\src\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Personal\TestProject\src\BusinessLayer\obj\Debug\BusinessLayer.pdb

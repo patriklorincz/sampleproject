@@ -1,0 +1,7 @@
+D:\Personal\TestProject\src\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\Personal\TestProject\src\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\Personal\TestProject\src\DataAccessLayer\bin\Debug\Entities.dll
+D:\Personal\TestProject\src\DataAccessLayer\bin\Debug\Entities.pdb
+D:\Personal\TestProject\src\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+D:\Personal\TestProject\src\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\Personal\TestProject\src\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
